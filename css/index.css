@@ -1,0 +1,61 @@
+@font-face {
+    font-family: 'LeeSeoyun';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2202-2@1.0/LeeSeoyun.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px auto;
+    padding: 50px;
+
+    width: 500px;
+    border-radius: 50px;
+    background-color: #5F7161;
+}
+
+.container>p {
+    font-family: 'LeeSeoyun';
+    font-size: 60px;
+    color: #D0C9C0;
+    margin-bottom: 40px;
+}
+
+#todo-input {
+    font-family: 'LeeSeoyun';
+    width: 300px;
+    height: 25px;
+    font-size: 17px;
+}
+
+#todo-btn {
+    font-size: 18px;
+    background-color: #6D8B74;
+    color: #5F7161;
+    border: none;
+}
+
+#todo-list {
+    list-style: none;
+}
+
+#todo-list>li {
+    font-family: 'LeeSeoyun';
+    font-size: 25px;
+    margin: 20px 0;
+    color: #EFEAD8;
+}
+
+#todo-list>li.did {
+    text-decoration: line-through;
+}
+
+#todo-list>li>.todo-check {
+    margin-right: 10px;
+    width: 18px;
+    height: 18px;
+    accent-color: #6D8B74;
+}
